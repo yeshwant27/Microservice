@@ -16,7 +16,7 @@ wapipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh "docker push adijaiswal/checkoutservice:latest "
+                        sh "docker push yeshwant27/checkoutservice:latest "
                     }
                 }
             }
